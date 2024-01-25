@@ -32,3 +32,20 @@ var Total = Mathematics + Biology + Chemistry + Physics + Bangla;
 console.log(Total);
 var Average = Total / 5;
 console.log(Average.toFixed(2));
+
+//problem 3
+//I have a number to divide by 5 and show the remainder as the output.
+// step 1. storing the number in a var
+// step 2. moduling the number by 5
+// step 3. showing the number
+
+var firstNum = 12;
+var shesh = firstNum % 5;
+console.log(shesh);
+
+console.log(12/5);
+
+const f = isNaN('502');
+console.log(f);
+const g =  isNaN(2-10);
+console.log(g);
