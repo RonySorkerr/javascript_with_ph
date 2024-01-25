@@ -35,3 +35,15 @@ var firstName = 'MObarok';
 var lastName = ' hosen';
 var name = firstName + lastName;
 console.log(name);
+  
+
+let x = '10';
+let num = Number(x);
+console.log(num);
+
+
+const a = isNaN(9);
+console.log(a);
+
+const b = isNaN(4 - 'hellow');
+console.log(b);
