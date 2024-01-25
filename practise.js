@@ -49,3 +49,12 @@ const f = isNaN('502');
 console.log(f);
 const g =  isNaN(2-10);
 console.log(g);
+
+var log = 45;
+var print
+
+//my quiz marks averages.
+var marks = 9+10+10+9+6+7+9+10+10+8+10+9+10+7;
+console.log(marks);
+var Average = marks / 14;
+console.log('my average marks is :' , Average.toFixed(3));
